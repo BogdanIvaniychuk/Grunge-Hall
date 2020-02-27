@@ -65,6 +65,12 @@ h1, h2, h3, h4, h5, h6, p, img{
     position: relative;
 }
 
+.parent__header {
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
 .head__container {
     width:100%;
 }
@@ -1111,12 +1117,14 @@ input:checked[type="checkbox"]:before
 
 
 
-@media (max-width: 1450px)
+media (max-width: 1450px)
 {
 
  body {
      zoom: 75%;
  }
+
+
 
 }
 
