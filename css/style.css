@@ -1259,7 +1259,9 @@ input:checked[type="checkbox"]:before
         margin-top: 9%;
     }
 
-
+    .night__subtitle {
+        top: 24%;
+    }
 
 }
 
