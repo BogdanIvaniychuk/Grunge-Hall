@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6, p, img{
 
 .night__subtitle {
     position: absolute;
-    top: 255px;
+    top: 23%;
     left: 13%;
     display:none;
 }
@@ -312,7 +312,7 @@ input:checked[type="checkbox"]:before
 
 .social__networks {
     position: absolute;
-    top: 400px;
+    top: 38%;
     right: 0;
     z-index: 1;
     background-color: #f13e3f;
@@ -996,7 +996,7 @@ input:checked[type="checkbox"]:before
 
 .night .night__button {
     display: initial;
-    margin-top: 50px;
+    margin-top: 8%;
     width: 113px;
     height: 122px;
 }
@@ -1007,7 +1007,7 @@ input:checked[type="checkbox"]:before
 
 .night .ge__night {
     display: inline-block;
-    margin-top: 285px;
+    margin-top: 15%;
     padding-left: 50px;
 }
 
@@ -1117,12 +1117,12 @@ input:checked[type="checkbox"]:before
 
 
 
-media (max-width: 1450px)
+@media (max-width: 1380px)
 {
 
- body {
-     zoom: 75%;
- }
+    /*body {
+     zoom: 87%;
+    }*/
 
 
 
@@ -1265,7 +1265,7 @@ media (max-width: 1450px)
     .schedule {
         width: 99px;
         height: 55px;
-        margin-top: 13px;
+        margin-top: 11%;
         margin-left: 45px;
         font-size: 13px;
 
