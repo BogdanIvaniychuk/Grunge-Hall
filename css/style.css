@@ -1111,7 +1111,7 @@ input:checked[type="checkbox"]:before
 
 
 
-@media (max-width: 1390px)
+@media (max-width: 1500px)
 {
     .header {
         transform: scale(0.75);
