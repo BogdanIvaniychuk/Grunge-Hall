@@ -1179,9 +1179,81 @@ input:checked[type="checkbox"]:before
 @media (max-width: 1380px)
 {
 
-    /*body {
-     zoom: 75%;
-    }*/
+    
+    .night .reservation {
+        padding-top: 44px;
+    }
+
+    .reservation {
+        width: 243px;
+        height: 123px;
+    }
+
+    .logo__img--night {
+        width: 85%;
+    }
+
+    .events__text {
+        font-size: 26px;
+    }
+
+    .center {
+        top: 21px;
+        left: 190px;
+    }
+
+    input[type="checkbox"] {
+        width: 58px;
+        height: 27px;
+    }
+
+    input[type="checkbox"]:before {
+        top: 1px;
+        left: -5px;
+        width: 24px;
+        height: 24px;
+    }
+
+    input:checked[type="checkbox"]:before {
+        left: 32px;
+    }
+
+    .nav {
+        height: 70px;
+        width: 45%;
+
+    }
+
+    .nav__link:first-child {
+        margin-left: 15px;
+    }
+
+    .nav__link {
+        font-size: 19px;
+        margin-left: 0px;
+
+    }
+
+    .social__networks {
+        width: 46px;
+        height: 203px;
+    }
+
+    .fab {
+        font-size: 37px;
+        padding-top: 30px;
+        padding-left: 8px;
+    }
+
+    .night .night__button {
+        margin-top: 6%;
+        width: 103px;
+        height: 112px;
+    }
+
+    .schedule {
+        margin-top: 9%;
+    }
 
 
 
