@@ -1513,7 +1513,7 @@ input:checked[type="checkbox"]:before
         height: 153px;
         padding-top: 20px;
         background-color: #fff;
-        margin-bottom: 27px;
+        margin-bottom: 7%;
         border-radius: 30px;
     }
     
@@ -1798,8 +1798,8 @@ input:checked[type="checkbox"]:before
     .events {
         width: 110px;
         height: 22px;
-        margin-top: 29px;
-        margin-left: 27px;
+        margin-top: 7%;
+        margin-left: 8%;
     }
 
     .events__img {
@@ -1844,20 +1844,20 @@ input:checked[type="checkbox"]:before
 
     .intro__title {
         margin-top: 0;
-        margin-bottom: 22px;
+        margin-bottom: 5%;
     }
 
     .mobile__logo {
-        margin-right: 59px;
+        margin-right: 16%;
     }
 
     .user {
-        margin-right: 28px;
-        margin-top: 17px;
+        margin-right: 5%;
+        margin-top: 4%;
     }
 
     .mobile__intro {
-        margin-top: 39px;
+        margin-top: 10%;
     }
 
     .intro__bottom {
@@ -1903,7 +1903,7 @@ input:checked[type="checkbox"]:before
 
     .main__section__mobile {
         width: 100%;
-        margin-top: 27px;
+        margin-top: 7%;
         position: relative;
     }
 
@@ -1969,7 +1969,7 @@ input:checked[type="checkbox"]:before
     }
 
     .servicer {
-        margin-bottom: 27px;
+        margin-bottom: 7%;
     }
 
     /* About us*/
@@ -2012,11 +2012,12 @@ input:checked[type="checkbox"]:before
     .see__more {
         display: block;
         text-align: center;
-        padding-bottom: 15px;
+        padding-bottom: 3%;
     }
 
     .navigation {
-        padding-top: 10px;
+        padding-top: 4%;
+        padding-bottom: 2%;
     }
 
     /*.see__more {
