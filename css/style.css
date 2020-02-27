@@ -1284,6 +1284,10 @@ input:checked[type="checkbox"]:before
         padding: 0 20px;
     }
 
+    .schedule__text {
+        font-size: 15px;
+    }
+
 }
 
 
