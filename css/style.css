@@ -1181,7 +1181,7 @@ input:checked[type="checkbox"]:before
 
     
     .night .reservation {
-        padding-top: 44px;
+        padding-top: 36px;
     }
 
     .reservation {
@@ -1235,18 +1235,18 @@ input:checked[type="checkbox"]:before
     }
 
     .night .ge__night {
-        margin-top: 15%;
+        margin-top: 14%;
     }
 
     .social__networks {
-        width: 46px;
-        height: 203px;
+        width: 41px;
+        height: 189px;
     }
 
     .fab {
-        font-size: 37px;
-        padding-top: 30px;
-        padding-left: 8px;
+        font-size: 33px;
+        padding-top: 25px;
+        padding-left: 7px;
     }
 
     .night .night__button {
