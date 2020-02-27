@@ -1113,7 +1113,7 @@ input:checked[type="checkbox"]:before
 
 @media (max-width: 1500px)
 {
-    .header {
+    body {
         transform: scale(0.75);
     }
 }
