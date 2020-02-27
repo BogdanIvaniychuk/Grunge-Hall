@@ -1263,6 +1263,27 @@ input:checked[type="checkbox"]:before
         top: 24%;
     }
 
+
+    .section__title {
+        font-size: 34px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .item__text {
+        font-size: 14px;
+    }
+
+    .item__text.third {
+        padding-top: 45px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
 }
 
 
