@@ -1234,6 +1234,10 @@ input:checked[type="checkbox"]:before
 
     }
 
+    .night .ge__night {
+        margin-top: 15%;
+    }
+
     .social__networks {
         width: 46px;
         height: 203px;
