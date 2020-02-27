@@ -1111,11 +1111,13 @@ input:checked[type="checkbox"]:before
 
 
 
-@media (max-width: 1500px)
+@media (max-width: 1380px)
 {
-    body {
-        transform: scale(0.75);
-    }
+
+ body {
+     zoom: 75%;
+ }
+
 }
 
 
