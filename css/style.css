@@ -301,14 +301,13 @@ input:checked[type="checkbox"]:before
     width: 160px;
     height: 78px;
     background-color: rgba(191,11,10,0.7);
-
-    margin-top: 10%;
+    margin-top: 6%;
     margin-left: 62px;
     font-size: 18px;
+    /*font-size: 1.8rem;*/
     font-weight: 700;
     color: #ffffff;
     text-align: left;
-
     padding: 14px 24px 21px 25px;
 }
 
@@ -405,11 +404,11 @@ input:checked[type="checkbox"]:before
 .reservation {
     display: block;
     position: absolute;
-    bottom: 55px;
+    bottom: 47px;
     left: 7%;
     z-index: 1;
-    width: 14%;
-    height: 14%;
+    width: 268px;
+    height: 148px;
     background: #ffffff;
     border-right: 16px solid #ff0000;
     text-align: center;
@@ -998,9 +997,7 @@ input:checked[type="checkbox"]:before
 
 .night .night__button {
     display: initial;
-    margin-top: 8%;
-    width: 12%;
-    /*height: 122px;*/
+    margin-top: 3%;
 }
 
 .night .main__btn {
@@ -1028,7 +1025,7 @@ input:checked[type="checkbox"]:before
 .night .reservation {
     background: rgba(0,0,0,0.6);
     color: #ffffff;
-    padding-top: 2%;
+    padding-top: 50px;
 }
 
 .night .section {
@@ -1118,6 +1115,66 @@ input:checked[type="checkbox"]:before
   }
 
 
+
+
+  @media (max-width: 1633px) {
+
+    .night .reservation {
+        padding-top: 44px;
+    }
+
+    .reservation {
+        width: 253px;
+        height: 133px;
+    }
+
+    .logo__img--night {
+        width: 90%;
+    }
+
+    .events__text {
+        font-size: 28px;
+    }
+
+    .center {
+        top: 24px;
+        left: 190px;
+    }
+
+    input[type="checkbox"] {
+        width: 61px;
+        height: 29px;
+    }
+
+    input[type="checkbox"]:before {
+        top: 2px;
+        left: -5px;
+        width: 24px;
+        height: 24px;
+    }
+
+    input:checked[type="checkbox"]:before {
+        left: 33px;
+    }
+
+    .nav {
+        height: 75px;
+        width: 45%;
+
+    }
+
+    .nav__link:first-child {
+        margin-left: 15px;
+    }
+
+    .nav__link {
+        font-size: 22px;
+        margin-left: 0px;
+
+    }
+
+
+  }
 
 @media (max-width: 1380px)
 {
