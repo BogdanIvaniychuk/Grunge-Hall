@@ -257,6 +257,7 @@ input:checked[type="checkbox"]:before
 
 .intro__title {
     margin-top: 10px;
+    
 }
 
 .ge__night { 
@@ -1131,7 +1132,7 @@ input:checked[type="checkbox"]:before
 }
 
 
-  @media (max-width: 770px) {
+    @media (max-width: 770px) {
       .desctop {
           display: none;
       }
@@ -1146,21 +1147,21 @@ input:checked[type="checkbox"]:before
 
       /*Header*/
 
-      .header__mobile {
+     /* .header__mobile {
           display: flex;
           justify-content: space-between;
           max-height: 75px;
           position: relative;
           padding: 25px 20px 0;
-      }
+      }*/
 
       .main__section {
-        min-height: 1135px;
+       /* min-height: 1135px;*/
         position: relative;
         background: url(../images/mobile__background.jpg) center no-repeat;
       }
 
-      .mobile__logo {
+     /* .mobile__logo {
         position: absolute;
         top: 3px;
         left: 32%;
@@ -1170,7 +1171,7 @@ input:checked[type="checkbox"]:before
       .night .mobile__logo {
           left: 45%;
           top: 15px;
-      }
+      }*/
       
       .events {
         width: 140px;
@@ -1189,10 +1190,10 @@ input:checked[type="checkbox"]:before
         font-size: 17px;
     }
 
-    .center {
+    /*.center {
         width: 55px;
         height: 46px;
-    }
+    }*/
 
     input[type="checkbox"] {
         width: 40px;
@@ -1236,7 +1237,7 @@ input:checked[type="checkbox"]:before
 
     .mobile__intro {
         text-align: center;
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .intro__events {
@@ -1255,10 +1256,10 @@ input:checked[type="checkbox"]:before
         font-weight: 300;
     }
 
-    .intro__title {
+/*    .intro__title {
             margin-bottom: 40px;
             margin-bottom: 40px;
-    }
+    }*/
 
     .main__btn {
         margin-top: 0px;
@@ -1321,7 +1322,7 @@ input:checked[type="checkbox"]:before
         margin-top: 50px;
     }
 
-    .servicer__title:after {
+    /*.servicer__title:after {
         content: "";
         display: block;
         margin: 0 auto;
@@ -1332,7 +1333,7 @@ input:checked[type="checkbox"]:before
         border-top: 3px solid #000;
         margin-top: 10px;
         margin-bottom: 13px;
-    }
+    }*/
 
     .servicer__text {
         font-size: 30px;
@@ -1398,9 +1399,9 @@ input:checked[type="checkbox"]:before
       height: 50px;
       background:#ff0000; 
       right: 6px;
-      top: 69%;
+      top: 69%;*/
 
-   }*/
+   }
 
     .service__item:after {
         content: "";
@@ -1481,13 +1482,13 @@ input:checked[type="checkbox"]:before
 
     /*Night-mobile mode*/
 
-    .night .events__img--night {
+   /* .night .events__img--night {
         position: absolute;
         display: initial;
         padding-left: 10px;
         padding-top: 7px;
         width: 27px;
-    }
+    }*/
 
     .night .events__img {
         display:none;
@@ -1619,18 +1620,26 @@ input:checked[type="checkbox"]:before
 
 @media (max-width: 480px) {
 
-    .mobile__logo--img,
-    .user__logo {
-        width: 80%;
-    }
+     .header__mobile {
+        display: flex;
+        justify-content: space-between;
+        max-height: 75px;
+        position: relative;
+     }
 
-    .main__section {
+   .mobile {
+       height: 100vh;
+   }
+
+   /* .main__section {
         min-height: 950px;
-    }
+    }*/
 
     .events {
-        width: 130px;
-        height: 30px;
+        width: 110px;
+        height: 22px;
+        margin-top: 29px;
+        margin-left: 27px;
     }
 
     .events__img {
@@ -1638,24 +1647,67 @@ input:checked[type="checkbox"]:before
     }
 
     .events__img--night {
-        width: 25px;
+        position: absolute;
+        display: initial;
+
+        top: 23%;
+        left: 12%;
     }
 
     .events__text {
-        font-size: 14px;
-        padding-left: 34px;
-        padding-top: 5px;
+        font-size: 12px;
+        padding-left: 32px;
+        padding-top: 2px;
     } 
 
+    .center {
+        top: 84%;
+        left: 95%;
+    }
+
+    input[type="checkbox"] { 
+        width: 28px;
+        height: 16px;
+        border-radius: 8px;
+    }
+
+    input[type="checkbox"]:before { 
+        width: 12px;
+        height: 12px;
+        left: 3px;
+        top: 2px;
+    }
+
+    .intro__title {
+        margin-top: 0;
+        margin-bottom: 22px;
+    }
+
+    .mobile__logo {
+        margin-right: 59px;
+    }
+
+    .user {
+        margin-right: 28px;
+        margin-top: 17px;
+    }
+
+    .mobile__intro {
+        margin-top: 39px;
+    }
+
+    .intro__bottom {
+        padding-left: 40%;
+    }
+    
     .social__networks {
-        width: 30px;
-        height: 130px;
+        width: 27px;
+        height: 112px;
     }
 
     .fab {
-        font-size: 21px;
-        padding-top: 16px;
-        padding-left: 0px;
+        font-size: 20px;
+        padding-top: 15px;
     }
 
 
@@ -1665,10 +1717,30 @@ input:checked[type="checkbox"]:before
     }
 
     .schedule {
-        width: 85px;
+        display: inline-block;
+        font-family: "Montserrat", sans-serif;
+        width: 160px;
+        height: 78px;
+        background-color: rgba(191,11,10,0.7);
+        font-size: 18px;
+        font-weight: 700;
+        color: #ffffff;
+        width: 93px;
         font-size: 10px;
+        height: 45px;
         padding-top: 8px;
-        height: 48px;
+        margin-top: 9px;
+        padding-left: 19px;
+        padding-right: 18px;
+        margin-left: 31px;
+        text-align: left;
+
+    }
+
+    .main__section__mobile {
+        width: 100%;
+        margin-top: 27px;
+        position: relative;
     }
 
     
@@ -1691,20 +1763,49 @@ input:checked[type="checkbox"]:before
 
 
     .night .reservation {
-        left: 12%;
+        left: 21%;
         top: 0;
         background: #ff0000;
         border-radius: 22px;
-        width: 130px;
-        height: 51px;
-        padding-top: 6px;
-        font-size: 24px;
+        width: 115px;
+        height: 44px;
+        padding-top: 7px;
+        font-size: 20px;
     }
 
     .service__item {
-        width: 145px;
-        height: 135px;
-        padding-top: 9px;
+        width: 116px;
+        height: 111px;
+        padding-top: 17px;
+    }
+
+    .servicer__title {
+        margin-top: 0px;
+    }
+
+    @font-face {
+        font-family: 'Century Gothic Regular';
+        src: url('CenturyGothic.eot');
+        src: url('CenturyGothic.eot?#iefix') format('embedded-opentype'),
+        url('CenturyGothic.woff') format('woff'),
+        url('CenturyGothic.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+    .servicer__text {
+        padding-top: 17px;
+        padding-left: 22px;
+        font-size: 18px;
+        font-family: 'Century Gothic Regular';
+    }
+    
+    .service__circle {
+        display: none;
+    }
+
+    .servicer {
+        margin-bottom: 27px;
     }
 
     /* About us*/
@@ -1715,9 +1816,7 @@ input:checked[type="checkbox"]:before
     }
 
     .service__item img {
-        padding-left: 37%;
-        padding-top: 7px;
-        width: 70%;
+        padding: 0 37px;
     }
 
     .service__circle {
@@ -1727,25 +1826,36 @@ input:checked[type="checkbox"]:before
 
 
     .red__background {
-        width: 40px;
-        height: 40px;
+        width: 38px;
+        height: 35px;
     }
 
     .service__item:after {
-        width: 12px;
-        height: 12px;
-        top: 81%;
-        right: 15px;
+        width: 14px;
+        height: 14px;
+        top: 78%;
+        right: 16px;
         
     }
 
     .service__text {
-        padding-top: 35px;
-        padding-left: 26px;
-        font-size: 14px;
+        padding-top: 17px;
+        padding-left: 22px;
+        font-size: 12px;
+        font-family: '';
     }
 
     .see__more {
+        display: block;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .navigation {
+        padding-top: 10px;
+    }
+
+    /*.see__more {
         content: "";
         display: block;
         width: 25px;
@@ -1759,5 +1869,5 @@ input:checked[type="checkbox"]:before
     .night .see__more {
         border-top: 3px solid #fff;
         border-right: 3px solid #fff;
-    }
+    }*/
 }
