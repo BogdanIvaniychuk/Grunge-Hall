@@ -2012,7 +2012,15 @@ input:checked[type="checkbox"]:before
     .see__more {
         display: block;
         text-align: center;
-        padding-bottom: 3%;
+        padding-bottom: 4%;
+    }
+
+    .mobile__nav {
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+        z-index: 1000;
+        left: 0;
     }
 
     .navigation {
