@@ -257,6 +257,7 @@ input:checked[type="checkbox"]:before
 
 .intro__title {
     margin-top: 10px;
+    
 }
 
 .ge__night { 
@@ -1906,7 +1907,7 @@ input:checked[type="checkbox"]:before
     .night .nav__img {
         display: none;
     }
-}
+
 
 
 @media (max-width: 572px) {
