@@ -1673,6 +1673,7 @@ input:checked[type="checkbox"]:before
         background-color: #fff;
         margin-bottom: 7%;
         border-radius: 30px;
+        background: url(..images/night__mobile__bg.png);
     }
     
     .service__circle {
@@ -1876,6 +1877,7 @@ input:checked[type="checkbox"]:before
         background-size: 100%;
         background-size: cover;
         position: relative;
+        min-height: 812px;
     }
 
     .night .servicer__img {
@@ -1892,9 +1894,7 @@ input:checked[type="checkbox"]:before
         border-top: 3px solid #fff;
     }
 
-    .night .service__item {
-        background: #443a3c;
-    }
+
 
     .night .service__img {
         display: none;
@@ -2101,6 +2101,7 @@ input:checked[type="checkbox"]:before
         width: 116px;
         height: 111px;
         padding-top: 17px;
+        background: url(/images/night__mobile__bg.png) center;
     }
 
     .servicer__title {
