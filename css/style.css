@@ -2081,6 +2081,7 @@ input:checked[type="checkbox"]:before
         width: 100%;
         margin-top: 7%;
         position: relative;
+        height: 100vh;
     }
 
     
