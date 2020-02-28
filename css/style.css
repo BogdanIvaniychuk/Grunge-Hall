@@ -1952,9 +1952,9 @@ input:checked[type="checkbox"]:before
        height: 100vh;
    }
 
-   /* .main__section {
-        min-height: 950px;
-    }*/
+   .main__section {
+        min-height: 815px;
+    }
 
     .events {
         width: 110px;
