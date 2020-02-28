@@ -438,7 +438,7 @@ input:checked[type="checkbox"]:before
     width: 855px;
     height: 480px;
     left: 50%;
-    top: 487px;
+    top: 30%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: #f5f5f5;
