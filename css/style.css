@@ -1130,6 +1130,25 @@ input:checked[type="checkbox"]:before
         font-size: 26px;
     }
 
+    .night .ge__night {
+        margin-top: 15%;
+    }
+
+    .night .night__button {
+        margin-top: 5%;
+        height: 12%;
+        width: 12%;
+    }
+
+    .schedule {
+        width: 150px;
+        height: 70px;
+        margin-top: 6%;
+        margin-left: 62px;
+        font-size: 16px;
+        padding: 11px 24px 21px 25px;
+    }
+
     .logo__img--night {
         width: 90%;
     }
@@ -1199,10 +1218,6 @@ input:checked[type="checkbox"]:before
         padding-top: 36px;
     }
 
-    .reservation {
-        width: 243px;
-        height: 123px;
-    }
 
     .logo__img--night {
         width: 85%;
