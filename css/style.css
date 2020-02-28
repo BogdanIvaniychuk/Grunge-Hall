@@ -2102,7 +2102,7 @@ input:checked[type="checkbox"]:before
         width: 116px;
         height: 111px;
         padding-top: 17px;
-        background: url(/images/night__mobile__bg.png) center;
+        background: rgb(48, 38, 39);
     }
 
     .servicer__title {
