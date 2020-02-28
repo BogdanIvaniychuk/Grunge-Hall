@@ -438,7 +438,7 @@ input:checked[type="checkbox"]:before
     width: 855px;
     height: 480px;
     left: 50%;
-    top: 487px;
+    top: 30%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: #f5f5f5;
@@ -1689,6 +1689,7 @@ input:checked[type="checkbox"]:before
         background-color: #fff;
         margin-bottom: 7%;
         border-radius: 30px;
+        background: url(..images/night__mobile__bg.png);
     }
     
     .service__circle {
@@ -1892,6 +1893,7 @@ input:checked[type="checkbox"]:before
         background-size: 100%;
         background-size: cover;
         position: relative;
+        min-height: 812px;
     }
 
     .night .servicer__img {
@@ -1908,9 +1910,7 @@ input:checked[type="checkbox"]:before
         border-top: 3px solid #fff;
     }
 
-    .night .service__item {
-        background: #443a3c;
-    }
+
 
     .night .service__img {
         display: none;
@@ -1967,9 +1967,9 @@ input:checked[type="checkbox"]:before
        height: 100vh;
    }
 
-   /* .main__section {
-        min-height: 950px;
-    }*/
+   .main__section {
+        min-height: 815px;
+    }
 
     .events {
         width: 110px;
@@ -2117,6 +2117,7 @@ input:checked[type="checkbox"]:before
         width: 116px;
         height: 111px;
         padding-top: 17px;
+        background: url(/images/night__mobile__bg.png) center;
     }
 
     .servicer__title {
