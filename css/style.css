@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6, p, img{
 
 .night__subtitle {
     position: absolute;
-    top: 26%;
+    top: 25%;
     left: 13%;
     display: none;
     width: 46%;
@@ -302,10 +302,9 @@ input:checked[type="checkbox"]:before
     width: 160px;
     height: 78px;
     background-color: rgba(191,11,10,0.7);
-    margin-top: 6%;
+    margin-top: 8%;
     margin-left: 62px;
     font-size: 18px;
-    /*font-size: 1.8rem;*/
     font-weight: 700;
     color: #ffffff;
     text-align: left;
@@ -998,7 +997,7 @@ input:checked[type="checkbox"]:before
 
 .night .night__button {
     display: initial;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .night .main__btn {
