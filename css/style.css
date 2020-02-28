@@ -1176,6 +1176,19 @@ input:checked[type="checkbox"]:before
     }
 
 
+    .social__networks {
+        width: 40px;
+        height: 200px;
+        
+    }
+
+    .fa-instagram, 
+    .fa-facebook-f {
+        font-size: 31px;
+        padding-top: 26px;
+        padding-left: 9px;
+    }
+
   }
 
 @media (max-width: 1380px)
@@ -1653,7 +1666,7 @@ input:checked[type="checkbox"]:before
     }
 
 
-.service__item {
+    .service__item {
         position: relative;
         width: 165px;
         height: 153px;
@@ -1705,9 +1718,9 @@ input:checked[type="checkbox"]:before
       height: 50px;
       background:#ff0000; 
       right: 6px;
-      top: 69%;*/
+      top: 69%;
 
-   }
+   }*/
 
     .service__item:after {
         content: "";
@@ -1907,7 +1920,7 @@ input:checked[type="checkbox"]:before
     .night .nav__img {
         display: none;
     }
-
+}
 
 
 @media (max-width: 572px) {
