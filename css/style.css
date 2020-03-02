@@ -1706,6 +1706,10 @@ input:checked[type="checkbox"]:before
         left: 81px;
     }
 
+    .night .main__section {
+        background: url(../images/night-mobile-background.jpg) no-repeat center;
+    }
+
     .service__text {
     padding-top: 22px;
     padding-left: 30px;
