@@ -1437,10 +1437,6 @@ input:checked[type="checkbox"]:before
         padding: 11px 24px 21px 25px;
     }
 
-    .night .white__background {
-        
-    }
-
     .fa-map-marker-alt, 
     .fa-phone-alt {
         font-size: 25px;
@@ -1501,10 +1497,6 @@ input:checked[type="checkbox"]:before
           max-height: 75px;
           position: relative;
         
-      }
-
-      .ipad__logo {
-       
       }
 
       .main__section {
@@ -1853,6 +1845,7 @@ input:checked[type="checkbox"]:before
         width: 27px;
     }*/
 
+    /*None styles for ipad*/
     .night .events__img {
         display:none;
     }
@@ -1866,11 +1859,23 @@ input:checked[type="checkbox"]:before
     }
 
     .night .mobile__logo--night {
-        display: initial;
+        display: none;
     }
 
     .night .mobile__logo--img {
         display:none;
+    }
+
+    .mobile__logo--img {
+        display: none;
+    }
+
+    .mobile__logo--night {
+        display: none;
+    }
+
+    .night .ipad__logo {
+        display: none;
     }
 
     .night .user__logo {
@@ -1878,8 +1883,114 @@ input:checked[type="checkbox"]:before
     }
 
     .night .user__logo--night {
+        display: none;
+    }
+
+    .night .ipad__user {
+        display: none;
+    }
+
+    .user__logo {
+        display: none;
+    }
+
+    .ipad__user__night {
+        display:none;
+    }
+
+    .night__ipad__logo {
+        display:none;
+    }
+
+    .night .night__ipad__logo {
         display: initial;
     }
+
+    .night .ipad__user__night {
+        display:initial;
+    }
+
+    .night__ipad__events__img {
+        display: none;
+    }
+
+    .events__img {
+        display: none;
+    }
+
+    .intro__title--night {
+        display: none;
+    }
+
+    .intro__title--day {
+        display: none;
+    }
+
+    .night .intro__title--day {
+        display: none;
+    }
+
+    .night .intro__title--night {
+        display:none;
+    }
+
+    .ipad__title__night {
+        display:none;
+    }
+
+    .night .ipad__title__night {
+        display: initial;
+    }
+
+    .night .ipad__title__day {
+        display:none;
+    }
+
+    .night .ipad__button {
+        display: none;
+    }
+
+    .night__button--mobile {
+        display: none;
+    }
+
+    .night .night__button--mobile {
+        display: initial;
+    }
+
+    .reservation__img {
+        display: none;
+    }
+
+    .night .ipad__servicer__img {
+      display:none;
+    }
+
+    .night .ipad__servicer__img--night {
+        display: initial;
+    }
+
+   .night .night__servicer__img {
+        display: none;
+    }
+
+    .ipad__servicer__img--night {
+        display: none;
+    }
+
+    .night__icons {
+        display: none;
+    }
+
+    .night .night__icons {
+        display: initial;
+    }
+
+    .night .day__icons {
+        display: none;
+    }
+
+    /*End*/
 
     .night .reservation {
         left: 12%;
@@ -1906,10 +2017,6 @@ input:checked[type="checkbox"]:before
         display: none;
     }
 
-    .night .intro__title--night {
-        display: initial;
-    }
-
     .night .mobile,
     .night .about_us__description {
         color:#fff;
@@ -1926,10 +2033,6 @@ input:checked[type="checkbox"]:before
 
     .night .servicer__img {
         display: none;
-    }
-
-    .night .night__servicer__img {
-        display:initial;
     }
 
 
@@ -1989,8 +2092,76 @@ input:checked[type="checkbox"]:before
     .night .night__ipad__events__img {
         display: none;
     }
-    
 
+    .night__ipad__logo {
+        display: none;
+    }
+
+   .night .mobile__logo--night {
+        display:initial;
+    }
+
+    
+    .night .night__ipad__logo {
+        display: none;
+    }
+
+    .night .ipad__user__night {
+        display: none;
+    }
+
+    .night .user__logo--night {
+        display: initial;
+    }
+
+    .ipad__title__night {
+        display: none;
+    }
+
+    .ipad__title__day {
+        display: none;
+    }
+
+   .night .intro__title--night {
+        display: initial;
+    }
+
+    .intro__title--day {
+        display:initial;
+    }
+    
+    .night .ipad__title__night {
+        display: none;
+    }
+
+    .ipad__button {
+        display: none;
+    }
+
+    .reservation__img {
+        display: initial;
+    }
+
+    .ipad__reservation {
+        display: none;
+    }
+
+    .ipad__servicer__img {
+        display: none;
+    }
+
+   .night .ipad__servicer__img--night {
+        display: none;
+    }
+
+    .night .night__servicer__img {
+       display: initial;
+    }
+
+
+
+
+     
     /*End*/
     .ipad__events__img {
         display:none;
