@@ -1076,11 +1076,8 @@ input:checked[type="checkbox"]:before
 }
 
 .night .white__background {
-    background: none;
-    color: #ffffff;
-
-    margin-top: 100px;
-    margin-left: 60px;    
+    background: #131313;
+    color: #ffffff;   
 }
 
 .night .section__trapeze {
@@ -1268,11 +1265,6 @@ input:checked[type="checkbox"]:before
         margin-top: 14%;
     }
 
-    .social__networks {
-        width: 41px;
-        height: 189px;
-    }
-
     .fab {
         font-size: 20px;
         padding-top: 29px;
@@ -1286,14 +1278,10 @@ input:checked[type="checkbox"]:before
         padding-left: 8px;
     }
 
-    .night .night__button {
-        margin-top: 7%;
-        width: 98px;
-        height: 107px;
-    }
+ 
 
     .schedule {
-        margin-top: 9%;
+        margin-top: 6%;
     }
 
     .night__subtitle {
@@ -1326,7 +1314,7 @@ input:checked[type="checkbox"]:before
     }
 
     .night .white__background {
-        margin-left: 25px;
+        
     }
 
 }
@@ -1339,9 +1327,9 @@ input:checked[type="checkbox"]:before
     }
 
     .reservation {
-        width: 233px;
-        height: 113px;
-        font-size: 26px;
+        width: 180px;
+        height: 100px;
+        font-size: 22px;
     }
 
     .logo__img--night {
@@ -1396,20 +1384,9 @@ input:checked[type="checkbox"]:before
         margin-top: 14%;
     }
 
-    .social__networks {
-        width: 41px;
-        height: 189px;
-    }
-
-
-    .night .night__button {
-        margin-top: 7%;
-        width: 98px;
-        height: 107px;
-    }
 
     .schedule {
-        margin-top: 9%;
+        margin-top: 5%;
     }
 
     .night__subtitle {
@@ -1435,16 +1412,22 @@ input:checked[type="checkbox"]:before
     }
 
     .schedule__text {
-        font-size: 15px;
+        font-size: 13px;
+    }
+
+    .schedule {
+        width: 130px;
+        height: 60px;
+        padding: 11px 24px 21px 25px;
     }
 
     .night .white__background {
-        margin-left: 10px;
+        
     }
 
     .fa-map-marker-alt, 
     .fa-phone-alt {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .adress,
@@ -1459,6 +1442,22 @@ input:checked[type="checkbox"]:before
     .adress-main {
         top: -21px;
         left: 75px;
+    }
+
+}
+
+@media (max-width: 990px) {
+    .adress, .phone {
+        font-size: 14px;
+    }
+
+    .fa-map-marker-alt, 
+    .fa-phone-alt {
+        font-size: 23px;
+    }
+
+    .incon-size {
+        margin-top: 20px;
     }
 
 }
