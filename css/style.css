@@ -1503,8 +1503,8 @@ input:checked[type="checkbox"]:before
         
       }
 
-      .ipad__events__img {
-
+      .ipad__logo {
+       
       }
 
       .main__section {
@@ -1536,6 +1536,14 @@ input:checked[type="checkbox"]:before
         padding-left: 10px;
         padding-top: 7px;
         width: 27px;
+    }
+
+    .night .ipad__events__img {
+        display: none;
+    }
+
+    .night .night__ipad__events__img {
+        display:inline;
     }
 
     .events__text {
@@ -1976,8 +1984,24 @@ input:checked[type="checkbox"]:before
 
 @media (max-width: 480px) {
 
+    /*None styles for ipad*/
+
+    .night .night__ipad__events__img {
+        display: none;
+    }
+    
+
+    /*End*/
     .ipad__events__img {
         display:none;
+    }
+
+    .ipad__logo {
+        display: none;
+    }
+
+    .night__ipad__logo {
+        display: none;
     }
 
      .header__mobile {
