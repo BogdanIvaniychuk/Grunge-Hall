@@ -96,12 +96,16 @@ h1, h2, h3, h4, h5, h6, p, img{
     padding-left: 55px;
     padding-top: 10px;
     opacity: unset;
+    position: relative;
+    z-index: 1000000;
 }
 
 .logo__img--night {
     padding-left: 80px;
     padding-top: 16px;
     display: none;
+    position: relative;
+    z-index: 100000;
 }
 
 .logo__background {
@@ -112,11 +116,16 @@ h1, h2, h3, h4, h5, h6, p, img{
     background-color: #ffffff;
     opacity: 0.7;
 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
 }
 
 .events {
     background-color: #eee;
-    width: 210px;
+    width: 245px;
     height: 45px;
     border-radius: 50px;
     position: relative;
@@ -245,6 +254,7 @@ input:checked[type="checkbox"]:before
 
 .intro {
     text-align: center;
+    margin-top: 5%;
 }
 
 .intro__suptitle {
@@ -283,7 +293,8 @@ input:checked[type="checkbox"]:before
 }
 
 .main__btn {
-    margin-top: 44px;
+    display: initial;
+    margin-top: 6%;
 }
 
 .night__button {
@@ -377,6 +388,8 @@ input:checked[type="checkbox"]:before
 }
 
 .red__circle {
+    display: block;
+    margin: 0 auto;
     margin-top: 15px;
     border-radius: 50%;
 }
@@ -414,7 +427,7 @@ input:checked[type="checkbox"]:before
     text-align: center;
     font-size: 29px;
     font-weight: 700;
-    padding-top: 36px;
+    padding-top: 50px;
     box-shadow: 3px 12px 65px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -609,10 +622,14 @@ input:checked[type="checkbox"]:before
     padding-top: 75px;
 }
 
+.photo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 
 .gallery__top {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 20px;
 }
 
@@ -810,8 +827,6 @@ input:checked[type="checkbox"]:before
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
             flex-direction: row;
-            
-    padding-bottom: 87px;
 }
 
 
@@ -984,7 +999,7 @@ input:checked[type="checkbox"]:before
 }
 
 .night .logo__background {
-    display: none;
+    background-color: #242424;
 }
 
 .night .logo__img--day {
@@ -1036,7 +1051,7 @@ input:checked[type="checkbox"]:before
 }
 
 .night .events {
-    background: none;
+    background: #1f1f1f;
 
 }
 
@@ -1105,8 +1120,9 @@ input:checked[type="checkbox"]:before
   }
 
   .night .photo__night {
-      display: inline-block;
-      margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
   }
 
   .night .overlay {
