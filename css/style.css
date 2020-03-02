@@ -1480,13 +1480,17 @@ input:checked[type="checkbox"]:before
 
       /*Header*/
 
-     /* .header__mobile {
+      .header__mobile {
           display: flex;
           justify-content: space-between;
           max-height: 75px;
           position: relative;
-          padding: 25px 20px 0;
-      }*/
+        
+      }
+
+      .ipad__events__img {
+
+      }
 
       .main__section {
        /* min-height: 1135px;*/
@@ -1677,7 +1681,7 @@ input:checked[type="checkbox"]:before
 
     .service__block {
         display: flex;
-        justify-content: space-around;
+        /*justify-content: space-around;*/
     }
 
 
@@ -1889,7 +1893,7 @@ input:checked[type="checkbox"]:before
 
     .night .main__section {
         width: 100%;
-        background: url(../images/night-mobile-background.jpg) center no-repeat;
+        background: url(../images/night-mobile-background.jpg)  no-repeat;
         background-size: 100%;
         background-size: cover;
         position: relative;
@@ -1955,6 +1959,10 @@ input:checked[type="checkbox"]:before
 
 
 @media (max-width: 480px) {
+
+    .ipad__events__img {
+        display:none;
+    }
 
      .header__mobile {
         display: flex;
@@ -2118,6 +2126,7 @@ input:checked[type="checkbox"]:before
         height: 111px;
         padding-top: 17px;
         background: rgb(48, 38, 39);
+        margin-left: 14%;
     }
 
     .servicer__title {
