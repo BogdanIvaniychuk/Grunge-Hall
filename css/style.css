@@ -2434,7 +2434,7 @@ input:checked[type="checkbox"]:before
         height: 111px;
         padding-top: 18px;
         background: rgb(48, 38, 39);
-        margin-left: 8%;
+        margin-left: 5%;
     }
 
     .servicer__title {
