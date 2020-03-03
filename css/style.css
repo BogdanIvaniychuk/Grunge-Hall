@@ -343,7 +343,7 @@ input:checked[type="checkbox"]:before
     width: 33px;
     height: 33px;
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 4px;
 }
 
 /* Section (About us) */
@@ -1246,9 +1246,8 @@ input:checked[type="checkbox"]:before
 
 
     .social__networks {
-        width: 33px;
+        width: 44px;
         height: 170px;
-        
     }
 
     .fa-instagram, 
@@ -1256,6 +1255,14 @@ input:checked[type="checkbox"]:before
         font-size: 29px;
         padding-top: 25px;
         padding-left: 6px;
+    }
+
+    .fab {
+        fill: #fff;
+    width: 25px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 5px;
     }
 
   }
@@ -1324,9 +1331,10 @@ input:checked[type="checkbox"]:before
     }
 
     .fab {
-        font-size: 20px;
-        padding-top: 29px;
-        padding-left: 7px;
+        width: 25px;
+        height: 25px;
+        margin-top: 28px;
+        margin-left: 6px;
     }
 
     .fa-instagram, 
@@ -1484,6 +1492,10 @@ input:checked[type="checkbox"]:before
         padding: 11px 24px 21px 25px;
     }
 
+    .fas {
+        margin-top: 30px;
+    }
+
     .fa-map-marker-alt, 
     .fa-phone-alt {
         font-size: 25px;
@@ -1501,6 +1513,19 @@ input:checked[type="checkbox"]:before
     .adress-main {
         top: -21px;
         left: 75px;
+    }
+
+    .footer__item .fab, .footer__item  .fas, .footer__item  .far {
+        margin-top: 19px;
+    }
+
+    .phone__number {
+        padding-top: 18px;
+    }
+
+    .footer__item.second {
+        margin-top: 9px;
+        margin-right: 18px;
     }
 
 }
