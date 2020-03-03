@@ -1613,12 +1613,15 @@ input:checked[type="checkbox"]:before
 
     .night .night__ipad__events__img {
         display:inline;
-        padding-top: 10px;
-        padding-left: 10px;
+        position: absolute;
+        top: 9px;
+        left: 10px;
     }
 
     .events__text {
         font-size: 17px;
+        padding-left: 33px;
+        padding-top: 4px;
     }
 
     /*.center {
@@ -1703,7 +1706,7 @@ input:checked[type="checkbox"]:before
         margin-left: 45px;
         font-size: 13px;
 
-        padding-top: 8px;
+        padding: 10px 0 0 10px;
 
     }
 
@@ -1782,13 +1785,14 @@ input:checked[type="checkbox"]:before
 
     .service__item {
         position: relative;
-        width: 165px;
-        height: 153px;
+        width: 200px;
+        height: 180px;
         padding-top: 20px;
         background-color: #fff;
         margin-bottom: 8%;
         border-radius: 30px;
-        background: url(..images/night__mobile__bg.png);
+        background: #3e3333;
+        margin-left: 10%;
     }
     
     .service__circle {
@@ -1798,14 +1802,14 @@ input:checked[type="checkbox"]:before
         border: 1px solid red;
         border-radius: 50%;
         bottom: 50px;
-        left: 81px;
+        left: 97px;
     }
 
 
     .service__text {
-    padding-top: 22px;
-    padding-left: 30px;
-    font-size: 16px;
+        padding-top: 37px;
+        padding-left: 36px;
+        font-size: 16px;
     }
 
     .service__item img{
@@ -2110,6 +2114,7 @@ input:checked[type="checkbox"]:before
     .night .mobile,
     .night .about_us__description {
         color:#fff;
+        padding-bottom: 60px;
     }
 
     .night .main__section {
@@ -2152,6 +2157,28 @@ input:checked[type="checkbox"]:before
     .night .nav__img {
         display: none;
     }
+
+    .reservation,
+    .night .reservation {
+        padding-top: 7px;
+        background: #ff0000;
+    }
+
+    .ipad__reservation  {
+        position: absolute;
+        top: 11px;
+        padding: 0;
+        margin: 0;
+        left: 11px;
+    }
+    
+    .photo {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 66px;
+        height: 66px;
+    }
 }
 
 
@@ -2163,9 +2190,10 @@ input:checked[type="checkbox"]:before
     }
 
     .schedule {
-        width: 95px;
-        font-size: 12px;
-        padding-top: 9px;
+        font-size: 11px;
+        padding: 0;
+        padding-top: 15px;
+        padding-left: 15px;
     }
 
 }
