@@ -1543,7 +1543,7 @@ input:checked[type="checkbox"]:before
           justify-content: space-between;
           max-height: 75px;
           position: relative;
-        
+          padding: 10px 5px 0;
       }
 
       .main__section {
@@ -1571,6 +1571,11 @@ input:checked[type="checkbox"]:before
         margin-left: 0;
     }
 
+    .center {
+        top: 25px;
+        left: 121px;
+    }
+
     .events__img {
         padding-left: 10px;
         padding-top: 7px;
@@ -1583,6 +1588,8 @@ input:checked[type="checkbox"]:before
 
     .night .night__ipad__events__img {
         display:inline;
+        padding-top: 10px;
+        padding-left: 10px;
     }
 
     .events__text {
@@ -1744,6 +1751,7 @@ input:checked[type="checkbox"]:before
     .service__block {
         display: flex;
         /*justify-content: space-around;*/
+        padding-left: 14%; 
     }
 
 
@@ -1753,7 +1761,7 @@ input:checked[type="checkbox"]:before
         height: 153px;
         padding-top: 20px;
         background-color: #fff;
-        margin-bottom: 7%;
+        margin-bottom: 8%;
         border-radius: 30px;
         background: url(..images/night__mobile__bg.png);
     }
@@ -2093,7 +2101,7 @@ input:checked[type="checkbox"]:before
     }
 
 
-.night .mobile__about_us:after, .night .servicer__title:after {
+    .night .mobile__about_us:after, .night .servicer__title:after {
         border-bottom: 3px solid #fff;
         border-top: 3px solid #fff;
     }
@@ -2402,7 +2410,7 @@ input:checked[type="checkbox"]:before
         height: 111px;
         padding-top: 18px;
         background: rgb(48, 38, 39);
-        margin-left: 14%;
+        margin-left: 8%;
     }
 
     .servicer__title {
