@@ -2326,8 +2326,12 @@ input:checked[type="checkbox"]:before
     }
 
     .fab {
-        font-size: 20px;
-        padding-top: 15px;
+        fill: #fff;
+        width: 19px;
+        height: 19px;
+        margin-top: 13px;
+        padding: 0;
+        margin-left:0;
     }
 
 
