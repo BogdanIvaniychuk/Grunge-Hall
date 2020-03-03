@@ -339,10 +339,11 @@ input:checked[type="checkbox"]:before
 }
 
 .fab {
-    color: #ffffff;
-    font-size: 40px;
-    padding-top: 30px;
-    padding-left: 10px;
+    fill: #fff;
+    width: 33px;
+    height: 33px;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 /* Section (About us) */
@@ -600,6 +601,11 @@ input:checked[type="checkbox"]:before
     width: 20%;
 }
 
+.item__img  .photo {
+    width: 78px;
+    height: 78px;
+}
+
 .item__text:after {
     content: "";
     display: block;
@@ -630,6 +636,12 @@ input:checked[type="checkbox"]:before
     display: block;
     margin: 0 auto;
     margin-top: 20px;
+    width: 32px;
+    height: 23px;
+}
+
+.night .photo {
+    fill: #fff;
 }
 
 
@@ -852,13 +864,11 @@ input:checked[type="checkbox"]:before
 }
 
 .adress-main{
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	        flex-direction: column;
-
-    
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
     position: absolute;
-    top: -13px;
+    top: -8px;
     left: 97px;
     z-index: 1;
 }
@@ -871,7 +881,7 @@ input:checked[type="checkbox"]:before
     text-align: left;
 }
 .phone{
-	margin-top: 45px;
+	margin-top: 40px;
 	font-size: 20px; 
     text-align: left;
 }
@@ -904,10 +914,6 @@ input:checked[type="checkbox"]:before
 
 /* Footer */
 
-.footer {
-
-}
-
 .footer__top {
     background: #131313;
     height: 115px;
@@ -932,11 +938,22 @@ input:checked[type="checkbox"]:before
     color: #797979;
 }
 
-.fa-viber,
-.fa-telegram-plane,
-.fa-envelope {
-    font-size: 20px;
-    color: #fff;
+.second .fab {
+    margin-top: 0;
+}
+
+.footer__item .fab, 
+.footer__item .fas,
+.footer__item .far {
+    width: 19px;
+    height: 21px;
+    fill: #fff;
+    margin-top: 29px;
+    margin-left: 7px;
+}
+
+.footer__item .far {
+    margin-top: 31px;
 }
 
 .footer__item .fa-phone-alt {
@@ -974,6 +991,13 @@ input:checked[type="checkbox"]:before
     font-size: 30px;
 }
 
+.fas {
+    width: 35px;
+    height: 34px;
+    fill: #fff;
+    margin-top: 40px;
+}
+
 .footer__item .fa-instagram,
 .footer__item .fa-facebook-f {
     padding-top: 0px;
@@ -992,6 +1016,7 @@ input:checked[type="checkbox"]:before
 
 .footer__item.second {
     display: flex;
+    margin-top: 0;
 }
 
 
@@ -1048,7 +1073,7 @@ input:checked[type="checkbox"]:before
 }
 
 .night .section {
-    background: url(../images/section__header__night.jpg) center no-repeat;
+    background: url(../images/section__header__nights.jpg) center no-repeat;
     background-size: cover;
     box-shadow: inset 0px 270px 85px 0px rgba(0,0,0,0.7);
 
@@ -1118,21 +1143,6 @@ input:checked[type="checkbox"]:before
      border-color: #fff; 
      background-color: #fff;
   }
-
-  .night .photo {
-      display:none;
-  }
-
-  .night .photo__night {
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-
-  .night .overlay {
-  }
-
-
 
 
   @media (max-width: 1633px) {
@@ -2027,6 +2037,16 @@ input:checked[type="checkbox"]:before
         display: none;
     }
 
+    .service__img--night {
+        display:none;
+    }
+
+    .night .ipad__service__img {
+        display: none;
+    }
+
+    .night__ipad
+
     /*End*/
 
     .night .reservation {
@@ -2084,10 +2104,6 @@ input:checked[type="checkbox"]:before
         display: none;
     }
 
-    .night .service__img--night {
-        display: initial;
-    }
-
     .night .service__img {
         display: none;
     }
@@ -2124,7 +2140,7 @@ input:checked[type="checkbox"]:before
 
 @media (max-width: 480px) {
 
-    /*None styles for ipad*/
+    /*None styles for mobile*/
 
     .night .night__ipad__events__img {
         display: none;
@@ -2210,6 +2226,12 @@ input:checked[type="checkbox"]:before
 
     .night__ipad__logo {
         display: none;
+    }
+
+    .photo {
+        width: 40px;
+        height: 40px;
+        margin-top: 0;
     }
 
      .header__mobile {
@@ -2374,7 +2396,7 @@ input:checked[type="checkbox"]:before
     .service__item {
         width: 116px;
         height: 111px;
-        padding-top: 17px;
+        padding-top: 18px;
         background: rgb(48, 38, 39);
         margin-left: 14%;
     }
@@ -2439,7 +2461,7 @@ input:checked[type="checkbox"]:before
     }
 
     .service__text {
-        padding-top: 17px;
+        padding-top: 23px;
         padding-left: 22px;
         font-size: 12px;
         font-family: '';
